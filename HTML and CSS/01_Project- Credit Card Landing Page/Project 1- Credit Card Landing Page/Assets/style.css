@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:black;
+    color: white;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.down {
+    width: 2%;
+}
+
+.button_pink {
+    display: flex;
+    gap: 20px;
+    width: 20%;
+}
+
+.english {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pink {
+    width:30%;
+    margin-left: 10px;
+    
+}
+
+.contact {
+    color: white;
+    height: 18px;
+    position:relative;
+    background-color:transparent;
+    border: none;
+    margin-right: 10px;
+    }
+.hero{
+    width: 85%;
+    display: flex;
+    margin: auto;
+   
+    
+}
+.upper_section{
+    margin-left: 140px;
+    /* width: 50%; */
+    margin-top:60px;
+    position: relative;
+}
+.pink{
+display: flex;
+font-size: 45px;
+gap: 8px;
+margin-top: 20px;
+}
+.pink-sec{
+    color:#ab47bc;
+}
+.lower_section{
+    display: flex;
+    margin-top: 40px;
+   text-align: center;
+   gap:6px;
+}
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.front{
+    width: 100%;
+}
+.image{
+     
+    
+}
+.text{
+    
+    font-size:45px;
+}
+.para{
+    margin-top: 40px;
+    font-size:20px ;
+    color:grey ;
+}
+.button_get {
+    display: flex;
+    margin-top: 40px;
+    
+}
+.active p{
+    margin-top: 10px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo_section{
+    background-color:#212121;
+    margin-top: 40px;
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    width: 75%;
+    margin:auto;
+    gap: 60px;
+}
+.icon div:nth-child(1){
+    margin-left:150px;
+}
