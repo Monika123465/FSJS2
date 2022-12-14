@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 10px;
+    }
+
+.container {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: dimgrey;
+}
+.button {
+    display: flex;
+    background-color:blue;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.hero{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.hero-upper{
+     margin-left:110px;
+}
+.hero-lower{
+    margin-top: 80px;
+
+}
+.text{
+    color: dimgray;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.get{
+    background-color:blue;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+.free{
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    border: 1px solid white;
+    border-top-width:2px;
+    margin-left: 10px;
+}
+
+.logo_section{
+    background-color:#212121;
+    
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    width: 75%;
+    margin:auto;
+    gap:100px;
+    padding: 20px;
+}
+.icon div:nth-child(1){
+    margin-left:120px;
+}
+
