@@ -61,18 +61,25 @@ body {
     margin-right: 10px;
     }
 .hero{
-    width: 85%;
+    width: 85vw;
     display: flex;
-    margin: auto;
-   
+    margin: 0 auto;
     
 }
+
 .upper_section{
-    margin-left: 140px;
-    /* width: 50%; */
+     margin-left: 140px; 
+     width: 50%; 
     margin-top:60px;
     position: relative;
 }
+
+.upper_section  .text.transactions {
+    font-size: 60px;
+    color: white;
+    width: 60vw;
+}
+
 .pink{
 display: flex;
 font-size: 45px;
@@ -81,6 +88,7 @@ margin-top: 20px;
 }
 .pink-sec{
     color:#ab47bc;
+    margin-left: 8px;
 }
 .lower_section{
     display: flex;
@@ -97,13 +105,12 @@ margin-top: 20px;
 .front{
     width: 100%;
 }
-.image{
-     
-    
-}
+
+
 .text{
-    
-    font-size:45px;
+    font-size: 4rem;
+    width: 100%;
+    border: 1px solid #212121;
 }
 .para{
     margin-top: 40px;
@@ -135,4 +142,152 @@ align-items: center;
 }
 .icon div:nth-child(1){
     margin-left:150px;
+}
+.payment{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+
+}
+.payment_upper{
+   font-size: 60px;
+   margin-left: 45px;
+   
+
+}
+
+.service{
+    display: flex;
+    
+}
+.payment_lower{
+font-size: 20px;
+    color: grey;
+    width: 32%;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.unique{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    gap: 60px;
+    margin-top:80px;
+
+
+}
+.unique div{
+    min-width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.dollar{
+    
+    margin-left:90px;
+    margin-top: 50px;
+    background-color: #212121;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+}
+.unique img{
+    width: 40%;
+}
+.cloud{
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+    width: 20%;
+    background-color:#424242;
+    }
+.lock{
+    
+    margin-top: 50px;
+    background-color:#212121 ;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+}
+.dollar-img{
+    margin-top: 40px;
+}
+
+.card{
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    
+}
+.card-img{
+    width:80%;
+}
+
+
+.intrest{
+    font-size: 60px;
+text-align: center;
+margin-top: 40px;
+}
+.card-choice{
+    font-size:60px ;
+    text-align: center;
+    margin-top: 20px;
+    color:#de3ed8;
+
+}
+.provide{
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+.card-lower{
+    margin-left:200px;
+}
+.customer{
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+}
+.feature{
+    display: flex; 
+    font-size: 45px ; 
+    text-align:center;
+    gap: 8px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.stars{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+.stars div:nth-child(1){
+    margin-left: 100px;
+    background-color: #424242;
+    padding: 10px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+}
+.name{
+    margin-top: 40px;
+
+}
+.stars div {
+    background-color:#212121;
+    padding: 10px;
+    
+}
+.paragraph{
+    margin-top: 20px;
 }
