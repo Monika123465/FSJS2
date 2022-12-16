@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:black;
+    background-color: black;
     color: white;
 }
 
@@ -41,109 +41,121 @@ body {
 
 .button {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
 }
 
 .btn-pink {
-    width:30%;
+    width: 30%;
     margin-left: 10px;
-    
+
 }
 
 .contact {
     color: white;
     height: 18px;
-    position:relative;
-    background-color:transparent;
+    position: relative;
+    background-color: transparent;
     border: none;
     margin-right: 10px;
-    }
-.hero{
+}
+
+.hero {
     width: 85vw;
     display: flex;
     margin: 0 auto;
-    
+
 }
 
-.upper_section{
-     margin-left: 140px; 
-     width: 50%; 
-    margin-top:60px;
+.upper_section {
+    margin-left: 140px;
+    width: 50%;
+    margin-top: 60px;
     position: relative;
 }
 
-.upper_section  .text.transactions {
+.upper_section .text.transactions {
     font-size: 60px;
     color: white;
     width: 60vw;
 }
 
-.pink{
-display: flex;
-font-size: 45px;
-gap: 8px;
-margin-top: 20px;
+.pink {
+    display: flex;
+    font-size: 45px;
+    gap: 8px;
+    margin-top: 20px;
 }
-.pink-sec{
-    color:#ab47bc;
+
+.pink-sec {
+    color: #ab47bc;
     margin-left: 8px;
 }
-.lower_section{
+
+.lower_section {
     display: flex;
     margin-top: 40px;
-   text-align: center;
-   gap:6px;
+    text-align: center;
+    gap: 6px;
 }
-.active{
+
+.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.front{
+
+.front {
     width: 100%;
 }
 
 
-.text{
+.text {
     font-size: 4rem;
     width: 100%;
     border: 1px solid #212121;
 }
-.para{
+
+.para {
     margin-top: 40px;
-    font-size:20px ;
-    color:grey ;
+    font-size: 20px;
+    color: grey;
 }
+
 .button_get {
     display: flex;
     margin-top: 40px;
-    
+
 }
-.active p{
+
+.active p {
     margin-top: 10px;
-font-size: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.logo_section{
-    background-color:#212121;
+
+.logo_section {
+    background-color: #212121;
     margin-top: 40px;
     padding: 20px;
 }
-.icon{
+
+.icon {
     display: flex;
     width: 75%;
-    margin:auto;
+    margin: auto;
     gap: 60px;
 }
-.icon div:nth-child(1){
-    margin-left:150px;
+
+.icon div:nth-child(1) {
+    margin-left: 150px;
 }
-.payment{
+
+.payment {
     width: 75%;
     margin: auto;
     display: flex;
@@ -151,127 +163,144 @@ align-items: center;
     margin-top: 40px;
 
 }
-.payment_upper{
-   font-size: 60px;
-   margin-left: 45px;
-   
+
+.payment_upper {
+    font-size: 60px;
+    margin-left: 45px;
+
 
 }
 
-.service{
+.service {
     display: flex;
-    
+
 }
-.payment_lower{
-font-size: 20px;
+
+.payment_lower {
+    font-size: 20px;
     color: grey;
     width: 32%;
     text-align: center;
     margin-top: 60px;
-    
+
 }
-.unique{
+
+.unique {
     display: flex;
     margin: auto;
     width: 75%;
     gap: 60px;
-    margin-top:80px;
+    margin-top: 80px;
 
 
 }
-.unique div{
+
+.unique div {
     min-width: 20%;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 200px;
 }
-.dollar{
-    
-    margin-left:90px;
+
+.dollar {
+
+    margin-left: 90px;
     margin-top: 50px;
     background-color: #212121;
     border: 1px solid white;
     border-bottom: none;
     border-right: none;
 }
-.unique img{
+
+.unique img {
     width: 40%;
 }
-.cloud{
+
+.cloud {
     border: 1px solid white;
     border-bottom: none;
     border-right: none;
     width: 20%;
-    background-color:#424242;
-    }
-.lock{
-    
+    background-color: #424242;
+}
+
+.lock {
+
     margin-top: 50px;
-    background-color:#212121 ;
+    background-color: #212121;
     border: 1px solid white;
     border-bottom: none;
     border-right: none;
 }
-.dollar-img{
+
+.dollar-img {
     margin-top: 40px;
 }
 
-.card{
+.card {
     width: 85%;
     margin: auto;
     padding: 20px;
-    
+
 }
-.card-img{
-    width:80%;
+
+.card-img {
+    width: 80%;
 }
 
 
-.intrest{
+.intrest {
     font-size: 60px;
-text-align: center;
-margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
-.card-choice{
-    font-size:60px ;
+
+.card-choice {
+    font-size: 60px;
     text-align: center;
     margin-top: 20px;
-    color:#de3ed8;
+    color: #de3ed8;
 
 }
-.provide{
+
+.provide {
     text-align: center;
     color: grey;
     margin-top: 20px;
 }
-.card-lower{
-    margin-left:200px;
+
+.card-lower {
+    margin-left: 200px;
 }
-.customer{
+
+.customer {
     width: 75%;
     margin: auto;
     margin-top: 40px;
 }
-.feature{
-    display: flex; 
-    font-size: 45px ; 
-    text-align:center;
+
+.feature {
+    display: flex;
+    font-size: 45px;
+    text-align: center;
     gap: 8px;
     margin-top: 20px;
     justify-content: center;
     margin-bottom: 40px;
-    
+
 }
-.stars{
+
+.stars {
     width: 65%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     margin-top: 40px;
 }
-.stars div:nth-child(1){
+
+.stars div:nth-child(1) {
     margin-left: 100px;
     background-color: #424242;
     padding: 10px;
@@ -279,15 +308,58 @@ margin-top: 40px;
     border-bottom: none;
     border-right: none;
 }
-.name{
+
+.name {
     margin-top: 40px;
 
 }
+
 .stars div {
-    background-color:#212121;
+    background-color: #212121;
     padding: 10px;
-    
+
 }
-.paragraph{
+
+.paragraph {
     margin-top: 20px;
+}
+
+
+.farji-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.farji-card .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.dot.active {
+    background-color: #de3ed8;
+    border-radius: 12px;
+    width: 30px;
+}
+
+
+.multi-background {
+    width: 80vw;
+    height: 50vh;
+
+    margin: 0 auto;
+   background-image: url("./Photos/Rectangle\ 6773.png" )top left url("./Photos/Rectangle\ 6774.png") top right;
+    background-position: center;
+    
+   
+    
+  
+    
+margin-bottom: 100px;
+
 }
