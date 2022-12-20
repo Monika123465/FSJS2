@@ -9,17 +9,11 @@
     margin: auto;
     align-items: center;
     height: 60px;
-    
-    
-    
-    
 }
 .bg-image{
     background-image:url('./Assets/Photos/futuristic-bg.png') ;
     color:white;
 }
-
-
 .container-nav {
     display: flex;
     gap: 20px;
@@ -30,13 +24,9 @@
 }
 .buttons{
     display: flex;
-  
-    
-    color: white;
+   color: white;
     margin-left: 550px;
-  gap: 6px;
-
-
+   gap: 6px;
 }
 .button{
 background-color:#f2684b ;
@@ -76,6 +66,7 @@ text-align: center;
     height: 30px;
     background-color:#f2684b ;
     color: white;
+    border: none;
 }
 .free{
     width: 100px;
@@ -88,4 +79,86 @@ text-align: center;
     
     margin-top: 60px;
     margin-right: 60px;
+}
+.popular{
+    width:90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.game{
+    font-size: 45px;
+    text-align: center;
+}
+.soldier{
+    display: flex;
+    gap: 20px;
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+}
+.actions{
+    display: flex;
+    gap: 60px;
+    
+}
+.lower{
+    width: 90%;
+  color: white;
+}
+.war-game{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+     gap: 20px;
+}
+.rect{
+    margin-left:170px;
+    width: 40%;
+}
+.hero-uppers{
+    width: 40%;
+
+}
+.for{
+    font-size: 45px;
+}
+.recommend{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px
+}
+.for{
+margin-left:60px;
+font-size: 60px;
+}
+.arrow{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+.right{
+    background-color: #f2684b;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.left{
+    background-color:#fbe9e7;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+
+}
+.recommendation{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 150px;
+
 }
